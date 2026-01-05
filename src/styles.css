@@ -104,7 +104,13 @@ body::before {
     flex-shrink: 0;
 }
 
-/* Language Toggle */
+/* Header Controls */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
 .language-toggle {
     display: flex;
     gap: 4px;
