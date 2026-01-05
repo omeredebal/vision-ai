@@ -3,7 +3,7 @@
 Real-time webcam analysis with local AI vision models.
 
 <div align="center">
-  <img src="assets/screenshot.png" alt="VisionAI Interface" width="800">
+  <img src="assets/screenshot_v2.png" alt="VisionAI Interface" width="800">
   <p><em>Modern dark-themed interface with real-time AI analysis</em></p>
 </div>
 
