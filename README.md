@@ -2,6 +2,11 @@
 
 Real-time webcam analysis with local AI vision models.
 
+<div align="center">
+  <img src="assets/screenshot.png" alt="VisionAI Interface" width="800">
+  <p><em>Modern dark-themed interface with real-time AI analysis</em></p>
+</div>
+
 ## Quick Start
 
 ```bash
