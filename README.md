@@ -54,8 +54,8 @@ graph TD
     C -->|Response JSON| B
     B -->|Display| E[User Interface]
     
-    style C fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#bbf,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ## Project Structure
