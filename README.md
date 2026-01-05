@@ -41,6 +41,23 @@ open src/index.html
 | Backend | llama.cpp server |
 | Frontend | Vanilla JS + CSS |
 
+## How it Works
+
+The application runs entirely on your local machine, ensuring privacy and speed.
+
+```mermaid
+graph TD
+    A[Webcam] -->|Capture Frame| B(Frontend / app.js)
+    B -->|Base64 Image + Prompt| C{Local AI Server}
+    C -->|Vision Encoder| D[Qwen2.5-VL Model]
+    D -->|Text Generation| C
+    C -->|Response JSON| B
+    B -->|Display| E[User Interface]
+    
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 ## Project Structure
 
 ```
