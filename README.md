@@ -24,7 +24,7 @@ open src/index.html
 
 - **Real-time Analysis** — Continuous webcam frame analysis
 - **Local AI** — No cloud API, 100% privacy
-- **Multilingual** — Turkish & English support
+- **Multilingual** — One-click TR/EN switching with auto-translated prompts
 - **Zero Cost** — Free, unlimited usage
 
 ## Requirements
@@ -44,7 +44,9 @@ open src/index.html
 ## Project Structure
 
 ```
-ai-project/
+vision-ai/
+├── assets/
+│   └── screenshot.png
 ├── src/
 │   ├── index.html    # Main UI
 │   ├── styles.css    # Dark theme
